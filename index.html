@@ -2,7 +2,8 @@
 <html>
 
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -18,6 +19,7 @@
         </div>
         <div class="row">
             <div class="col-md-6">
+                <div class="well">
                 <h2>Player1</h2><br>
                 <div class="player-0-panel active">
                     <div class="player-score" id="score-0">0</div>
@@ -27,7 +29,9 @@
                     </div>
                 </div>
             </div>
+            </div>
             <div class="col-md-6">
+                <div class="well">
                 <h2>Player2</h2><br>
                 <div class="player-1-panel active">
                     <div class="player-score" id="score-0">0</div>
@@ -38,13 +42,18 @@
                 </div>
             </div>
         </div>
-        <br><br><br><br>
+        </div>
+        <br><br><br><br> 
+         <button type="button" id="btn-roll" >Roll</button><br><br>
+            <button type="button" id="btn-hold">Hold</button><br><br>
+            <button type="reset" id="btn-reset">New Game</button>
+
       
-        <button id="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+        <!-- <button id="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
         <button id="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
-        <button id="btn-hold"><i class="ion-ios-downloadoutline"></i>Hold</button>
+        <button id="btn-hold"><i class="ion-ios-downloadoutline"></i>Hold</button> -->
         <br><br>
-        <img scr="images/dice-2.jpg" alt="Dice" class="dice">
+        <img scr="images/dice-5.png" alt="Dice" class="dice" id="d-1">
     </div>
 
 
