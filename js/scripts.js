@@ -1,5 +1,5 @@
-// $(document).ready(function () {
-//     $('#btn-roll').click(function () {
+ $(document).ready(function () {
+     $('#btn-roll').click(function () {
 //         if (isPlaying) {
 //             let dice = Math.floor(Math.random() * 6 + 1);
 //             console.log(dice);
